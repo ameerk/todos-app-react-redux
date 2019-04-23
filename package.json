@@ -10,6 +10,7 @@
     "redux": "^4.0.1",
     "redux-action": "^1.2.2",
     "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
     "semantic-ui-react": "^0.86.0"
   },
   "scripts": {

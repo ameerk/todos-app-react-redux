@@ -1,10 +1,11 @@
 import { connect } from "react-redux";
 import TodosList from "./todosList";
 import { removeTodo } from "../../actionsCreators/todo";
+import { getTodos } from "../../selectors/todos";
 
 const mapStateToProps = state => {
   return {
-    todos: state.todos
+    todos: getTodos(state)
   };
 };
 
